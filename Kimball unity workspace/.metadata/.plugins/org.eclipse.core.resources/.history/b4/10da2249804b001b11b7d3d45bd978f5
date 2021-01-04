@@ -1,0 +1,8 @@
+browser=chrome
+URL= https://qa-cm-portal-eus-wa.azurewebsites.net/
+Username= cpdManager3@genexservicesqa.onmicrosoft.com
+Userpassword= qagenex789!!!
+AntiCipatedValue=The Claimant will reach MMI
+CaseManageValue=Alteration in comfort related to
+CaseManageGoalType= 3
+CaseManageGaolSugg= Claimant will improve his keyboarding skills by practicing each week.

@@ -1,0 +1,7 @@
+23:04:06.377 [main] INFO  kimball.UnityLogin - driver is initialized
+23:04:09.738 [main] INFO  kimball.UnityLogin - Navigated to login page
+23:04:10.024 [main] DEBUG kimball.UnityLogin - User provides username
+23:04:10.179 [main] DEBUG kimball.UnityLogin - User provides password to login
+23:04:15.954 [main] DEBUG kimball.UnityLogin - User clicks on signin button
+23:04:46.716 [main] INFO  kimball.UnityLogin - User clicked on case
+23:04:48.140 [main] DEBUG kimball.CarePlan - user clicks on careplan tab

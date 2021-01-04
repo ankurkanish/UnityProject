@@ -1,0 +1,7 @@
+22:59:17.491 [main] DEBUG kimball.UnityLogin - User clicks on signin button
+23:00:02.360 [main] INFO  kimball.UnityLogin - User clicked on case
+23:00:03.764 [main] DEBUG kimball.CarePlan - user clicks on careplan tab
+23:00:04.650 [main] DEBUG kimball.CarePlan - user saves AntiCipate section
+23:00:04.650 [main] INFO  kimball.CarePlan - user successfully saves anticipated case results
+23:00:05.527 [main] DEBUG kimball.CarePlan - user saves CaseManagement issues
+23:00:05.527 [main] INFO  kimball.CarePlan - user successfully saves case management issues

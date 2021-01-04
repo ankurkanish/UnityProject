@@ -1,0 +1,39 @@
+package kimball;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+import pageObjects.CarePlanObj;
+import pageObjects.TasksObj;
+
+public class Tasks extends base {
+	
+	Properties prop;
+	FileInputStream fis;
+	
+	public void CreateTasks() throws IOException, InterruptedException
+	{
+		
+		UnityLogin Login= new UnityLogin();
+		Login.basePageNavigation();
+		ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+	    driver.switchTo().window(tabs2.get(1));
+		TasksObj Tsk = new TasksObj(driver);
+		Tsk.getTasksTab().click();
+		Tsk.getCreateTaskButton().click();
+		Tsk.getPriorityButton().click();
+		Tsk.getDueDate().click();
+		Tsk.getActiveDueDate().click();
+		Tsk.getSubject().sendKeys("SubjectQA Test");
+		Tsk.getDescription().sendKeys("QA description");
+		Tsk.getSaveButton().click();
+		
+		
+		
+	}
+
+}

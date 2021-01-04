@@ -1,0 +1,84 @@
+package kimball;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Properties;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import pageObjects.LoginPage;
+
+public class UnityLogin extends base {
+	
+	Properties prop;
+	FileInputStream fis;
+	int i;
+	@Test
+	public void basePageNavigation() throws IOException, InterruptedException
+	{
+		
+		driver=initializeDriver();
+		prop = new Properties();
+		fis= new FileInputStream("D:\\selenium projects\\Kimball unity workspace\\Unity\\src\\main\\java\\kimball\\data.properties");
+		prop.load(fis);
+		String URLName=prop.getProperty("URL");
+		driver.get(URLName);
+		LoginPage l= new LoginPage(driver);
+		String User=prop.getProperty("Username");
+		l.getUserName().sendKeys(User);
+		l.getNextButton().click();
+		String Password=prop.getProperty("Userpassword");
+		l.getUserPassword().sendKeys(Password);
+		Thread.sleep(5000);
+		l.getSignInButton().click();
+		l.getConfirmationNext().click();
+		Thread.sleep(5000);
+		int refreshCount = 10;    
+	    List<WebElement> element = driver.findElements(By.xpath("/*[@class='k-header k-grid-toolbar']"));  
+	    String ClaimantName="Archer, John";
+	    for (int i = 0; i < refreshCount; i++) {    
+	        if (element.size() > 0 && l.getCaseList().get(i).getText().equals(ClaimantName) ) {     
+	        	l.getCaseList().get(i).click();
+				Thread.sleep(5000);
+				break;   
+	        } else {    
+	            driver.navigate().refresh();    
+	        }     
+	    }
+		Thread.sleep(10000);
+		/*String ClaimantName="Archer, John";
+		for(int i=0;i<=l.getCaseList().size();i++)
+		{
+			
+			if(l.getCaseList().get(i).getText().equals(ClaimantName))
+			{
+				l.getCaseList().get(i).click();
+				Thread.sleep(5000);
+				break;
+			}
+		}*/
+		}}
+			
+			
+		
+		
+		
+		
+
+	    
+	
+	
+		
+	
+
+	
+	
+	
+	
+	
+

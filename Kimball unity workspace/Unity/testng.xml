@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+<listeners>
+<listener class-name= "kimball.Listeners"/>
+</listeners>
+  <test name="Validating Login">
+    <classes>
+      <class name="kimball.UnityLogin"/>
+      </classes>
+      </test>
+      <test name="Validating CarePlan tab">
+    <classes>
+      <class name="kimball.CarePlan"/>
+      </classes>
+      </test>
+      <test name="Validating Tasks tab">
+      <classes>
+      <class name="kimball.Tasks"/>
+      </classes>
+      </test>
+ <!-- Test -->
+</suite> <!-- Suite -->

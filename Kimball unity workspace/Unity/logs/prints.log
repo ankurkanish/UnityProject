@@ -1,0 +1,7 @@
+21:37:44.026 [main] DEBUG kimball.Tasks - user clicks on Create task button
+21:37:45.026 [main] INFO  kimball.Tasks - User successfully created task
+23:03:51.907 [TestNG-tests-3] INFO  kimball.Tasks - driver is initialized
+23:03:55.630 [TestNG-tests-3] INFO  kimball.Tasks - Navigated to login page
+23:03:56.080 [TestNG-tests-3] DEBUG kimball.UnityLogin - User provides username
+23:03:56.289 [TestNG-tests-3] DEBUG kimball.UnityLogin - User provides password to login
+23:04:01.990 [TestNG-tests-3] DEBUG kimball.UnityLogin - User clicks on signin button

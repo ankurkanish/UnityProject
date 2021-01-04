@@ -1,0 +1,5 @@
+22:17:44.802 [main] ERROR kimball.Logss - Test failed
+22:17:44.805 [main] INFO  kimball.Logss - Test complete
+22:19:26.177 [main] INFO  kimball.UnityLogin - driver is initialized
+22:19:30.256 [main] INFO  kimball.UnityLogin - Navigated to login page
+22:20:23.806 [main] INFO  kimball.UnityLogin - Case found

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="kimball.UnityLogin"/>
+      </classes>
+      </test>
+      <test name="Test">
+    <classes>
+      <class name="kimball.CarePlan"/>
+      </classes>
+      </test>
+      <test name="Test">
+      <classes>
+      <class name="kimball.Tasks"/>
+      </classes>
+      </test>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

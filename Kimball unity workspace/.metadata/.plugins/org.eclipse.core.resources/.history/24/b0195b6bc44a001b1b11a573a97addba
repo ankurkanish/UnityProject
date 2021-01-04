@@ -1,0 +1,7 @@
+22:54:21.299 [main] INFO  kimball.CarePlan - user successfully saves case management issues
+22:54:24.630 [main] DEBUG kimball.CarePlan - user saves CaseManagement goals
+22:54:24.630 [main] INFO  kimball.CarePlan - user successfully saves case management goals
+22:54:31.258 [main] INFO  kimball.UnityLogin - driver is initialized
+22:54:35.162 [main] INFO  kimball.UnityLogin - Navigated to login page
+22:55:12.894 [main] INFO  kimball.UnityLogin - Case found
+22:55:14.119 [main] DEBUG kimball.Tasks - user clicks on task tab

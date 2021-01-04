@@ -1,0 +1,8 @@
+21:36:58.139 [main] INFO  kimball.Tasks - driver is initialized
+21:37:02.025 [main] INFO  kimball.Tasks - Navigated to login page
+21:37:02.204 [main] DEBUG kimball.UnityLogin - User provides username
+21:37:02.361 [main] DEBUG kimball.UnityLogin - User provides password to login
+21:37:08.663 [main] DEBUG kimball.UnityLogin - User clicks on signin button
+21:37:42.064 [main] INFO  kimball.UnityLogin - User clicked on case
+21:37:43.387 [main] DEBUG kimball.Tasks - user clicks on task tab
+21:37:43.387 [main] INFO  kimball.Tasks - user is navigated under task tab

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-30T22:53:26 IST" name="Suite" finished-at="2020-12-30T22:55:16 IST" duration-ms="109485">
+    <groups>
+    </groups>
+    <test started-at="2020-12-30T22:53:26 IST" name="Test" finished-at="2020-12-30T22:55:16 IST" duration-ms="109485">
+      <class name="kimball.CarePlan">
+        <test-method signature="SaveCarePlan()[pri:0, instance:kimball.CarePlan@1fdf1c5]" started-at="2020-12-30T22:53:26 IST" name="SaveCarePlan" finished-at="2020-12-30T22:54:24 IST" duration-ms="58061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveCarePlan -->
+      </class> <!-- kimball.CarePlan -->
+      <class name="kimball.Tasks">
+        <test-method signature="CreateTasks()[pri:0, instance:kimball.Tasks@2d96543c]" started-at="2020-12-30T22:54:24 IST" name="CreateTasks" finished-at="2020-12-30T22:55:16 IST" duration-ms="51397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTasks -->
+      </class> <!-- kimball.Tasks -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
